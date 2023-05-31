@@ -1,0 +1,20 @@
+root:{
+    --red:#dc3545
+}
+
+
+
+.navbar .navbar-nav{
+    text-transform: uppercase;
+    font-size: 1.2rem; 
+    font-weight: 600;  
+}
+.navbar{
+    background-color: seashell !important;
+}
+.navbar  .nav-link{
+    transition: color 0.7s;
+}
+.navbar .nav-link:hover{
+    color: var(--red) ;
+}
